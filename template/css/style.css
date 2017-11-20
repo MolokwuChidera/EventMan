@@ -1,0 +1,63 @@
+body {
+  color: #fff; }
+
+#hero {
+  background: url("../assets/img.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 60%; }
+
+.navbar {
+  width: 100%;
+  background: none !important; }
+  @media (max-width: 34em) {
+    .navbar {
+      background: black !important; } }
+  .navbar .navbar-toggler {
+    cursor: pointer;
+    outline: 0; }
+  .navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .navbar .nav-item {
+    padding: 0 1rem; }
+    @media (max-width: 34em) {
+      .navbar .nav-item {
+        padding: 0; } }
+    @media (max-width: 34em) {
+      .navbar .nav-item .nav-link {
+        font-weight: normal;
+        padding: 0;
+        color: #fff; } }
+
+h3 {
+  font-weight: bold;
+  font-size: 3.5em; }
+
+.hero-img {
+  width: 80%; }
+
+.feature-wrapper p {
+  color: #000; }
+
+#join-container {
+  background: url("../assets/header.jpg") no-repeat;
+  background-size: cover; }
+
+#join-containers {
+  background: url("../assets/grad.jpg") no-repeat;
+  background-size: cover; }
+
+h2 {
+  letter-spacing: 4px;
+  font-weight: bold; }
+
+.form-control {
+  background: #111111;
+  border: 3px solid #2F2F2F;
+  padding: 10px; }
+
+.btn {
+  padding: 12px;
+  border: none;
+  color: #000;
+  cursor: pointer; }
