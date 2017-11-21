@@ -2,7 +2,7 @@ body {
   color: #fff; }
 
 #hero {
-  background: url("../assets/img.jpg") no-repeat;
+  background: url("../assets/events9.jpg") no-repeat;
   background-size: cover;
   background-position: 0 60%; }
 
@@ -47,17 +47,33 @@ h3 {
   background: url("../assets/grad.jpg") no-repeat;
   background-size: cover; }
 
+  #joined {
+  background: url("../assets/grad.jpg") no-repeat;
+  background-size: cover; }
+
 h2 {
   letter-spacing: 4px;
   font-weight: bold; }
 
+
 .form-control {
   background: #111111;
   border: 3px solid #2F2F2F;
-  padding: 10px; }
+  
+}
+a:hover{
+     font-family: cursive;
+      font-size: 120%;
+     }
 
 .btn {
   padding: 12px;
   border: none;
   color: #000;
   cursor: pointer; }
+  #logohead{
+font-weight: bold;
+       font-size: 40px;
+       color: teal;
+       font-family: cursive;
+     }
