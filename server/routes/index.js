@@ -12,7 +12,7 @@ module.exports = (app) => {
   app.put('/api/events/:eventsId', eventsController.update);
   app.delete('/api/events/:eventsId', eventsController.destroy);
 
-  );
+
 
 app.post('/api/centers', centersController.create);
   app.get('/api/centers', centersController.list);
@@ -20,7 +20,7 @@ app.post('/api/centers', centersController.create);
   app.put('/api/centers/:eventsId', eventsController.update);
   app.delete('/api/centers/:eventsId', eventsController.destroy);
 
-  );
+  
 
 
 
