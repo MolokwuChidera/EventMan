@@ -11,19 +11,47 @@
 
  
    <link rel="stylesheet" type="text/css" href="css/style.css">
-   <script src="../js/bootstrap.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+<style type="text/css">
+     h1{
+
+      color:black;
+     }
+     
+     #formbox{
+
+      border:3px solid #eee;
+      border-radius: 3px;
+
+     }
+     h3{                    /*CSS styling to affect logo*/
+        letter-spacing: 4px;
+        font-weight: bold;
+
+
+        }
+      #logohead   /*inline css to affect the logos size and look*/
+      {
+        font-weight: bold;
+       font-size: 40px;
+       color: teal;
+       font-family: cursive;
+      }
+     
+   </style>
+
 </head>
-    <body>
+    <body style="background-color: #2f2f2f">
     
 
     
-      <div id="hero">
+      <div>
 
       <div class="container">
         <div class="row">
 
           <nav class="navbar nacbar-toggleable-md navbar-inverse">
-            <a href="#" class="navbar-brand text-primary" id="logo">Admin</a>
+           <h3 class="text-uppercase "> <a href="#" id="logohead" class="navbar-brand text-primary" id="logo">Admin Page</a></h3>
             
                     
           
@@ -39,8 +67,8 @@
 
 
       </div>
-    <div id="joined" class="pb-30">
-     <div  class="col-sm-9 col-xs-12">
+    <div style="padding-top: 30px;padding-left: 70px"  class="pb-30 ">
+     <div id="formbox" class="col-sm-9 col-xs-12">
       <div class="col-sm-12 wrapper">
         <h1>Centers</h1><hr/>
         <div class="col-md-12">
