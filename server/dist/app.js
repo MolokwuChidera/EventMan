@@ -1,9 +1,19 @@
-import express from 'express';
-import routes from './routes';
+'use strict';
+
+var _express = require('express');
+
+var _express2 = _interopRequireDefault(_express);
+
+var _routes = require('./routes');
+
+var _routes2 = _interopRequireDefault(_routes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 //var path = require('path');
-const bodyParser = require('body-parser');
+var bodyParser = require('body-parser');
 // Set up the express app
-const app = express();
+var app = (0, _express2.default)();
 
 // import events from "./routes/events";
 // import centersfrom "./routes/centers";
@@ -30,16 +40,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // //app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
-    res.render('Welcome to Event Manager');
+  res.render('Welcome to Event Manager');
 });
 
 //app.use('/centers', centers);
 //app.use('/events', events);
-app.listen(3000,()=>{
+app.listen(3000, function () {
 
-	console.log('Listening on 3000')
-})
+  console.log('Listening on 3000');
+});
 
-
-routes(app);
+(0, _routes2.default)(app);
 module.exports = app;

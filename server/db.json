@@ -1,0 +1,29 @@
+{
+	"events": [
+		{
+			"id": 1,
+			"name":"Molokwu Chidera",
+			"date":"04/12/2017"	
+		},
+
+		{
+			"id": 2,
+			"name":"Fakunle Samuel",
+			"date":"04/12/2017"	
+		}
+	],
+	"centers": [
+		{
+			"id":1,
+			"name":"Gbagada",
+			"capacity":4000
+
+		},
+
+		{
+			"id":2,
+			"name":"Ikeja",
+			"capacity":3000
+		}
+	]
+}
